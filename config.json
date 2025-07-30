@@ -1,0 +1,13 @@
+{
+  "data_dir": "./geo2sigmap_dataset",
+  "output_dir": "./outputs",
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "base_features": 64,
+  "weight_decay": 1e-05,
+  "scheduler_step": 50,
+  "scheduler_gamma": 0.5,
+  "augmentation": true,
+  "stage1_epochs": 100,
+  "stage2_epochs": 100
+}
