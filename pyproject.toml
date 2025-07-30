@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "geo"
+version = "0.1.0"
+description = ""
+authors = ["kenny <chengyou0223@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+# 基本科學計算與影像處理
+sionna = "*"
+scikit-image = "^0.25.2"
+scikit-learn = "^1.7.1"
+matplotlib = "^3.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

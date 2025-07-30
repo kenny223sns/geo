@@ -270,7 +270,9 @@ class Geo2SigMapDataset(Dataset):
             'target': torch.from_numpy(target_data),
             'metadata': {
                 'file_name': self.file_list[idx],
-                'tx_position': data.get('tx_position', [0, 0, 0])
+                'tx_position': data.get('tx_position', [0, 0, 0]),
+                'tile_center': data.get('tile_center', [0, 0]),
+                'orientation': data.get('orientation', 0.0)
             }
         }
 
